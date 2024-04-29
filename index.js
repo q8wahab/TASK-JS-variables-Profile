@@ -11,7 +11,7 @@
 
 // Part 1 answer 👇🏻 ...
 let fullName = "abdulwahab alhajji";
-let yearOfBirth = "1983";
+let yearOfBirth = 1983;
 let hobby = "travel";
 let funFact = "I Collect mugs";
 const image =
@@ -29,10 +29,16 @@ const image =
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
+// const fullName = "wahab";
+const YOUR_AGE = 2024 - yearOfBirth;
 
-//const fullNameString = `My name is ${fullName}`;
-//const yearOfBirthString ='MY AGE ${YOUR_AGE}'
-//const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${YOUR_AGE} years old`;
+const hobbyString = `My hobby is ${hobby}`;
+
+console.log(fullNameString);
+console.log(yearOfBirthString);
+console.log(hobbyString);
 
 /**
  * Part 3: Re-assignment
@@ -42,15 +48,15 @@ const image =
 let stars = 0;
 
 function incrementBy1() {
-  // Increment stars by 1 👇🏻
+  stars += 1;
 }
 function decrementBy1() {
-  // decrement stars by 1 👇🏻
+  stars -= 1;
 }
 
 function incrementBy2() {
-  // Increment stars by 2 👇🏻
+  stars += 2;
 }
 function decrementBy2() {
-  // decrement stars by 2 👇🏻
+  stars -= 2;
 }
