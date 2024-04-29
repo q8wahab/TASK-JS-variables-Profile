@@ -10,11 +10,12 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
-
-
-
+let fullName = "abdulwahab alhajji";
+let yearOfBirth = "1983";
+let hobby = "travel";
+let funFact = "I Collect mugs";
+const image =
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/KNF_Seal.svg/1920px-KNF_Seal.svg.png";
 
 /**
  * Part 2: String Interpolation
@@ -24,17 +25,14 @@
  * 1. fullNameString      -> assign it to: My name is {fullName}
  * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
  * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
+ *
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
-
-
-
+//const fullNameString = `My name is ${fullName}`;
+//const yearOfBirthString ='MY AGE ${YOUR_AGE}'
+//const hobbyString =
 
 /**
  * Part 3: Re-assignment
